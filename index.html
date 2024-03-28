@@ -23,10 +23,27 @@
       </div>
     </div>
 
-    <audio id="song1" src="audio/song1.mp3"></audio>
-    <audio id="song2" src="audio/song2.mp3"></audio>
-    <audio id="song3" src="audio/song3.mp3"></audio>
+    <audio id="song" autoplay loop></audio>
 
+<script>
+  const songs = [
+    "audio/song1.mp3",
+    "audio/song2.mp3",
+    "audio/song3.mp3"
+    // Tambahkan URL lagu-lagu lainnya di sini
+  ];
+
+  function chooseRandomSong() {
+    const randomIndex = Math.floor(Math.random() * songs.length);
+    return songs[randomIndex];
+  }
+
+  window.onload = function() {
+    const audioElement = document.getElementById("song");
+    audioElement.src = chooseRandomSong();
+  };
+</script>
+    
     <script src="js/words.js"></script>
     <script src="js/script.js"></script>
 
