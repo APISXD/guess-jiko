@@ -197,7 +197,7 @@ let wordList = [
     },
     {
         word: "nayla",
-        hint: "Moshi..Mosh! Welcome Nayla Land! Halo semuanya, bakyu-n"
+        hint: "Moshi..Mosh!"
     },
     {
         word: "nachia",
