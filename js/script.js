@@ -14,7 +14,7 @@ function showHelp() {
                         "Instructions:\n" +
                         "- Tebak member berdasarkan jiko.\n" +
                         "- You have limited guesses.\n" +
-                        "- Each correct guess earns you points.\n" +
+                        "- 1 Huruf 1 point.\n" +
                         "- Have fun and good luck!\n\n" +
                         "Enjoy playing!";
     alert(helpMessage);
