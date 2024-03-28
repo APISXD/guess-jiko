@@ -8,6 +8,22 @@ const inputs = document.querySelector(".inputs"),
 
 let word, maxGuesses, incorrectLetters = [], score = 0, correctLetters = [];
 
+// Fungsi untuk menampilkan bantuan
+function showHelp() {
+    const helpMessage = "Welcome to Guess the Member!\n\n" +
+                        "Instructions:\n" +
+                        "- Tebak member berdasarkan jiko.\n" +
+                        "- You have limited guesses.\n" +
+                        "- Each correct guess earns you points.\n" +
+                        "- Have fun and good luck!\n\n" +
+                        "Enjoy playing!";
+    alert(helpMessage);
+  }
+  
+  // Mengambil tombol bantuan dan menambahkan event listener untuk menampilkan bantuan saat diklik
+  const helpBtn = document.querySelector(".help-btn");
+  helpBtn.addEventListener("click", showHelp);
+
 function randomWord() {
   let ranItem = wordList[Math.floor(Math.random() * wordList.length)];
   word = ranItem.word;
