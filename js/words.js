@@ -105,7 +105,7 @@ let wordList = [
     },
     {
         word: "shani",
-        hint: "Semanis coklat, selembut sutra. Halo, aku Shani!"
+        hint: "Semanis coklat, selembut sutra"
     },
     {
         word: "gracia",
@@ -117,7 +117,7 @@ let wordList = [
     },
     {
         word: "delynn",
-        hint: "Nyemangatin dan ngangenin, siapa yang kamu pikirkan?"
+        hint: "Nyemangatin dan ngangenin, siapa yang kamu pikirin?"
     },
     {
         word: "shasa",
