@@ -205,7 +205,7 @@ let wordList = [
     },
     {
         word: "oline",
-        hint: "Semangatku full terus! Guess…guess…Oline!"
+        hint: "Semangatku full terus! Gas gas gas"
     },
     {
         word: "regie",
