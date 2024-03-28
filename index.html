@@ -24,27 +24,11 @@
         <button class="help-btn" style="margin-top: 20px; margin-left: 175px;">Help</button>
       </div>
     </div>
-
-    <audio id="song" autoplay loop></audio>
-
-<script>
-  const songs = [
-    "audio/song1.mp3",
-    "audio/song2.mp3",
-    "audio/song3.mp3"
-    // Tambahkan URL lagu-lagu lainnya di sini
-  ];
-
-  function chooseRandomSong() {
-    const randomIndex = Math.floor(Math.random() * songs.length);
-    return songs[randomIndex];
-  }
-
-  window.onload = function() {
-    const audioElement = document.getElementById("song");
-    audioElement.src = chooseRandomSong();
-  };
-</script>
+    
+  <audio id="song" autoplay loop>
+    <source src="audio/fullkalimba.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>    
     
     <script src="js/words.js"></script>
     <script src="js/script.js"></script>
