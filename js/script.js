@@ -8,11 +8,6 @@ const inputs = document.querySelector(".inputs"),
 
 let word, maxGuesses, incorrectLetters = [], score = 0, correctLetters = [];
 
-function chooseRandomSong() {
-    const randomIndex = Math.floor(Math.random() * 3) + 1; // Memilih angka acak antara 1 dan 3
-    return document.getElementById(`song${randomIndex}`).src;
-  }
-
 function randomWord() {
   let ranItem = wordList[Math.floor(Math.random() * wordList.length)];
   word = ranItem.word;
@@ -29,13 +24,7 @@ function randomWord() {
     html += `<input type="text" disabled>`;
   }
   inputs.innerHTML = html;
-  
-  // Memulai lagu secara acak saat halaman dimuat
-window.onload = function() {
-    const audioElement = document.getElementById("song");
-    const randomSong = chooseRandomSong();
-    audioElement.src = randomSong;
-  };
+
 }
 randomWord();
 
