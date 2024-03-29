@@ -117,7 +117,13 @@ body{
     cursor: pointer;
     z-index: 999;
   }
-  
+  #start {
+  font-size: 1.1em;
+  display: block;
+  margin: 1.1em auto 0 auto;
+  background-color: #000000;
+  color: #ffffff;
+}
   .help-btn:hover {
     background-color: #000000;
   }
