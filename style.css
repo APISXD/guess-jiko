@@ -121,16 +121,53 @@ body{
     background-color: #000000;
   }
   #start {
-  font-size: 1.1em;
-  display: block;
-  margin: 1.1em auto 0 auto;
-  background-color: #000000;
-  color: #ffffff;
-}
+    display: block;
+    width: auto; /* Lebar elemen disesuaikan dengan konten */
+    margin: 10px auto; /* Mengatur margin kiri dan kanan menjadi otomatis, yang akan menengahkan elemen */
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    padding: 7px 7px; /* Padding atas dan bawah 10px, padding kiri dan kanan 20px */
+    font-size: 10px;
+    border-radius: 5px;
+    background: #e41b1b;
+    transition: all 0.3s ease;
+  }
+  .footer {
+    text-align: center;
+    font-size: 14px; /* Ukuran font untuk footer */
+    position: fixed; /* Mengubah posisi menjadi tetap */
+    bottom: 0; /* Meletakkan footer di bagian bawah */
+    left: 0;
+    right: 0;
+    padding: 10px; /* Beri padding untuk estetika */
+  }
+  
+  .footer .social-media-link {
+    margin: 0 5px; /* Beri jarak antara setiap tautan media sosial */
+  }
+  
+  /* Style untuk ikon media sosial */
+  .footer .social-media-link i {
+    width: 40px; /* Menyesuaikan lebar ikon */
+    height: 40px; /* Menyesuaikan tinggi ikon */
+    color: #e41b1b; /* Warna ikon */
+  }
+  
+  
   @media only screen and (max-width: 600px) {
   .help-btn {
     font-size: 14px;
     padding: 10px 20px;
   }
 }
+
+  @media only screen and (min-width: 768px) {
+    .footer {
+      display: flex; /* Menggunakan flexbox */
+      justify-content: center; /* Pusatkan konten secara horizontal */
+      align-items: center; /* Pusatkan konten secara vertikal */
+}
+  }
 }
