@@ -19,6 +19,7 @@ body{
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
 }
 .wrapper h1{
   font-size: 25px;
@@ -83,6 +84,7 @@ body{
 @media screen and (max-width: 460px) {
   .wrapper {
     width: 100%;
+    margin-bottom: 20px;
   }
   .wrapper h1{
     font-size: 22px;
@@ -144,6 +146,7 @@ body{
     left: 0;
     right: 0;
     padding: 10px; /* Beri padding untuk estetika */
+    margin-top: 20px;
   }
   
   .footer .social-media-link {
@@ -165,4 +168,5 @@ body{
       top: 10px; /* Adjust top position for tablet */
       right: 10px; /* Adjust right position for tablet */
     }
+    
   }  
