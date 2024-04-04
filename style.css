@@ -104,6 +104,8 @@ body{
     padding: 14px 0;
     font-size: 16px;
   }
+} 
+
     .help-btn {
     position: fixed;
     top: 20px;
@@ -156,18 +158,11 @@ body{
   }
   
   
-  @media only screen and (max-width: 460px) {
-  .help-btn {
-    font-size: 14px;
-    padding: 10px 20px;
-  }
-}
-
-  @media only screen and (max-width: 460px) {
-    .footer {
-      display: flex; /* Menggunakan flexbox */
-      justify-content: center; /* Pusatkan konten secara horizontal */
-      align-items: center; /* Pusatkan konten secara vertikal */
-}
-  }
-}
+  @media only screen and (max-width: 768px) {
+    .help-btn {
+      font-size: 14px; /* Adjust font size for tablet */
+      padding: 15px 30px; /* Adjust padding for tablet */
+      top: 10px; /* Adjust top position for tablet */
+      right: 10px; /* Adjust right position for tablet */
+    }
+  }  
