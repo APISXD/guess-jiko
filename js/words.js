@@ -209,7 +209,7 @@ let wordList = [
     },
     {
         word: "regie",
-        hint: "Bagi kalium yang bereaksi dengan air, aku akan meledak dengan semangat ku! Boom!"
+        hint: "Bagai kalium yang bereaksi dengan air, aku akan meledak dengan semangat ku! Boom!"
     },
     {
         word: "ribka",
@@ -221,6 +221,6 @@ let wordList = [
     },
     {
         word: "kimmy",
-        hint: "Bagi hamster yang lincah, aku akan berlari-lari di pikiranmu"
+        hint: "Bagai hamster yang lincah, aku akan berlari-lari di pikiranmu"
     },
 ]
