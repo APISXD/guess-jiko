@@ -186,11 +186,11 @@ css-doodle {
   position: fixed; /* Mengatur elemen menjadi tetap di posisi relatif terhadap viewport */
   top: 0;
   left: 0;
-  transform: scale(0.25);
+  transform: scale(0.2); /* Mengubah skala elemen menjadi 20% */
   width: 100vw; /* Lebar elemen sama dengan lebar viewport */
   height: 100vh; /* Tinggi elemen sama dengan tinggi viewport */
   z-index: -1; /* Menempatkan elemen di belakang elemen lain */
-  opacity: 10%;
+  opacity: 10%; /* Mengurangi kejelasan elemen */
 }
 
 css-doodle {
